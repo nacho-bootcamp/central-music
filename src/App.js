@@ -1,7 +1,14 @@
-
 import React from "react";
+import "./App.css";
+import HomePage from "./pages/HomePage";
+import { ChakraProvider } from "@chakra-ui/provider";
 
- return(
-   <p>hola mundogi</p>
- );
-export default React
+const App = () => {
+  return (
+    <ChakraProvider>
+      <HomePage />
+    </ChakraProvider>
+  );
+};
+
+export default App;
