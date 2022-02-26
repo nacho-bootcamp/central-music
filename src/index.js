@@ -1,14 +1,14 @@
 import React from "react";
-//import ReactDom from "react-dom";
-//import app from "app";
-import ReactDOM from 'react-dom';
-import App from './App';
-import { ChakraProvider } from '@chakra-ui/react';
+import ReactDOM from "react-dom";
+import "normalize.css";
 
+
+import App from "./App";
 
 ReactDOM.render(
-    <ChakraProvider>
-        <App/> 
-    </ChakraProvider>, document.getElementById("root")
-) ;
+ 
+    <App />,
+ 
 
+  document.getElementById("root")
+);
