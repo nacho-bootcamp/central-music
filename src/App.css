@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+box{
+    
+}
+
+.container{
+    max-width: 120rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #ab0433;
+    align-items: center;
+    text-align: center;
+
+}
+.title {
+    font-size: 46px;
+    color: white;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: white;
+}
+
+.btn {
+    
+    background-color: #FF753A;
+    width: 93px;
+    height: 18px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    font-size: 13px;
+
+}

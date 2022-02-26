@@ -1,5 +1,14 @@
 import React from "react";
 //import ReactDom from "react-dom";
 //import app from "app";
-import 'bootstrap/dist/css/bootstrap.min.css';
-//ReactDOM.render(<App/>,document.getElementById ,"Root") ;
+import ReactDOM from 'react-dom';
+import App from './App';
+import { ChakraProvider } from '@chakra-ui/react';
+
+
+ReactDOM.render(
+    <ChakraProvider>
+        <App/> 
+    </ChakraProvider>, document.getElementById("root")
+) ;
+
