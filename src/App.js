@@ -1,7 +1,15 @@
-
+import { ChakraProvider, theme } from "@chakra-ui/react";
 import React from "react";
+import './App.css';
+import HomePage from './pages/HomePage'
 
- return(
-   <p>hola mundogi</p>
+
+function App () {
+ return (
+    <ChakraProvider theme={theme}>
+      <HomePage />
+    </ChakraProvider>
  );
-export default React
+};
+
+export default App;
